@@ -8,6 +8,8 @@ For example, 1 day is 24 hours, 2 days is 48 hours, 3 days is 72 hours, and so o
 
 Approach: Here, the key is to store the frequency of each element, while checking if the is a compliment,
 then if the is a complement, update count.
+
+You can also use brute force, on Array/Easy on java
 */
 let countCompleteDayPairs1 = function(hours) {
     let map = new Map();
